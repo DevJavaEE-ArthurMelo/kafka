@@ -48,7 +48,7 @@
 - [Kafdrop](https://github.com/obsidiandynamics/kafdrop) - Web UI
 - [Conduktor](https://www.conduktor.io/) - IDE para Kafka
 - [AKHQ](https://akhq.io/) - Kafka GUI
-- [Kafka Manager](https://github.com/yahoo/AKHQ) - Yahoo's Kafka Manager
+- [Kafka Manager](https://github.com/yahoo/kafka-manager) - Yahoo's Kafka Manager (archived)
 
 ### Desenvolvimento
 - [Kafka Docker Images](https://hub.docker.com/r/confluentinc/cp-kafka)

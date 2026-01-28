@@ -55,7 +55,8 @@ public class SimpleConsumer {
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             System.out.println("\nRecebido sinal de shutdown...");
             running = false;
-            consumer.wakeup(); // Interrompe poll() se estiver bloqueado
+            // wakeup() faz poll() lançar WakeupException, interrompendo o bloqueio
+            consumer.wakeup();
         }));
         
         try {

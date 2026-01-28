@@ -31,7 +31,7 @@ public class SimpleProducer {
         // Configuração de acknowledgment (all = aguarda todas réplicas)
         props.put(ProducerConfig.ACKS_CONFIG, "all");
         
-        // Número de tentativas em caso de falha
+        // Número de retentativas em caso de falha (3 retries = 4 tentativas totais)
         props.put(ProducerConfig.RETRIES_CONFIG, 3);
         
         // Try-with-resources garante fechamento do producer
