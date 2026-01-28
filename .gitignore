@@ -1,0 +1,75 @@
+# Ignore build artifacts
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+out/
+bin/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore Kafka data directories
+/kafka-logs/
+/zookeeper-data/
+/data/
+
+# Ignore temporary files
+tmp/
+temp/
+*.tmp
+
+# Ignore dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Ignore Python virtual environments
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# Ignore test outputs
+test-output/
+coverage/
+.coverage
+
+# Ignore package manager lock files (keep for consistency)
+# Uncomment if you want to ignore:
+# package-lock.json
+# yarn.lock
+# Gemfile.lock
+
+# Ignore compiled documentation
+_site/
+.sass-cache/
